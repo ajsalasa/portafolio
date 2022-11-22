@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+}
+
+p, div {
+    font-family: 'Roboto', sans-serif !important;
+    color: white;
+}
+
+h1 {
+    font-size: 3.8rem;
+    margin: 7rem 1.25rem 3rem 1.25rem;
+  }
+
+p {
+    font-size: 1.5rem;
+    margin: 0 1.25rem 5rem 1.25rem;
+}
+
+
+body{
+    background-color: #1f1f1f;
+}
+
+.background-blue{
+    background-color: #273c75;
+}
+
+.background-yellow{
+    background-color: #D8B118;
+}
+
+.background-lighblue{
+    background-color: #008dd5;
+}
+
+.background-grey{
+    background-color: #1f1f1f;
+}
+
+.color-grey{
+    color: #1f1f1f;
+}
+
+.me-img {
+    object-fit: cover;
+}
+
+.wave-container {
+position: relative;
+background: #1f1f1f;
+color: #FFF;
+text-align: center;
+overflow: hidden;
+margin-top: 150px;
+}
+
+@keyframes animateWave {
+0% {
+    transform: scale(1,0);
+}
+100% {
+    transform: scale(1,1);
+}
+}
+.wave-container > svg {
+display: block;
+transform-origin: bottom;
+animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
