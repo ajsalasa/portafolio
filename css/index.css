@@ -58,6 +58,18 @@ body{
     background-color: #1f1f1f;
 }
 
+.color-blue{
+    color : #273c75;
+}
+
+.color-yellow{
+    color: #D8B118;
+}
+
+.color-lighblue{
+    color: #008dd5;
+}
+
 .color-grey{
     color: #1f1f1f;
 }
@@ -104,6 +116,6 @@ animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
 
 .vertical-line {
     border-right: 2px solid #273c75;
-    height: 200px;
-
+    height: 400px;
 }
+
