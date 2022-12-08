@@ -92,13 +92,24 @@ background-size: auto;
 
 .me-img {
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: auto;
+}
+
+.download-cv{
+    margin-top: 2vh;
 }
 
 .wave-container {
     position: relative;
     /* background: #1f1f1f; */
     color: #FFF;
-    text-align: center;
     overflow: hidden;
     margin-top: 150px;
 }
@@ -134,7 +145,7 @@ background-size: auto;
 
 .vertical-line {
     border-right: 2px solid #273c75;
-    height: 625px;
+
 }
 
 section {
@@ -146,7 +157,9 @@ section {
     padding: 100px;
 }
 
-
+.title{
+    margin-bottom: 3vh;
+}
 
 
 
